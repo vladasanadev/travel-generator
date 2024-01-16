@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/images/nepal_lumbini.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  color: #eaa0ad;
+}
+
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.5;
+  color: white;
+}
+
+form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 12px 15px;
+  width: 80%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid rgba(76, 77, 84, 0.2);
+  border-radius: 50px;
+  color: (0, 0, 0, 0.87);
+}
+
+.submit-btn {
+  width: 120px;
+  margin-left: 10px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  background-color: #f4aeba;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.poem {
+  background-color: white;
+  padding: 30px;
+  line-height: 1.5;
+  border-radius: 10px;
+  border-left: 5px solid #f4aeba;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}

@@ -3,49 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Travel Destination Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Travel Destination Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          id=""
-          placeholder="Enter a country or place to travel"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        New York City: The bustling metropolis with iconic landmarks and diverse
-        neighborhoods.
-        <br />
-        Statue of Liberty National Monument: A symbol of freedom and a
-        must-visit historical site.
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Travel Destination Generator <br/> ✈️</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            id=""
+            class="instructions"
+            placeholder="Enter a country or a place to travel..."
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-btn" />
+        </form>
+        <div class="poem">
+          <strong>New York City:</strong> The bustling metropolis with iconic landmarks and
+          diverse neighborhoods.
+          <br />
+          <strong>Statue of Liberty National Monument:</strong> A symbol of freedom and a
+          must-visit historical site.
+          
+        </div>
+      </main>
 
-    <footer>
-      This AI project is coded by
-      <a href="https://github.com/spun21m" target="_blank">Sital Pun</a> and is
-      <a
-        href="https://github.com/spun21m/travel-destination-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://ai-travel-destination-generator.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project is coded by
+        <a href="https://github.com/spun21m" target="_blank">Sital Pun</a> and
+        is
+        <a
+          href="https://github.com/spun21m/travel-destination-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-travel-destination-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
