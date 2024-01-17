@@ -9,16 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Travel Destination Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Travel Destination Generator <br/> ✈️</h1>
+        <h1>
+          AI Travel Destination Generator <br />
+          ✈️
+        </h1>
       </header>
       <main>
-        <form>
+        <form id="travel-destinations-generator">
           <input
             type="text"
             id=""
@@ -30,14 +34,7 @@
           />
           <input type="submit" class="submit-btn" />
         </form>
-        <div class="poem">
-          <strong>New York City:</strong> The bustling metropolis with iconic landmarks and
-          diverse neighborhoods.
-          <br />
-          <strong>Statue of Liberty National Monument:</strong> A symbol of freedom and a
-          must-visit historical site.
-          
-        </div>
+        <div class="travel-destinations" id="travel-destinations"></div>
       </main>
 
       <footer>
