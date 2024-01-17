@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Travel Destination Generator</title>
   </head>
@@ -22,18 +23,18 @@
         </h1>
       </header>
       <main>
-        <form id="travel-destinations-generator">
-          <input
-            type="text"
-            id=""
-            class="instructions"
-            placeholder="Enter a country or a place to travel..."
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="submit-btn" />
-        </form>
+          <form id="travel-destinations-generator">
+            <input
+              type="text"
+              id="instructions"
+              class="instructions"
+              placeholder="Enter a country or a place to travel..."
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="submit-btn" />
+          </form>
         <div class="travel-destinations" id="travel-destinations"></div>
       </main>
 
