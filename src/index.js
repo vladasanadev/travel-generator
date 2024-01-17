@@ -11,7 +11,6 @@ function generateTravelDestination(event) {
   event.preventDefault();
   let instructionsInputElement = document.querySelector("#instructions");
   let travelDestElement = document.querySelector("#travel-destinations");
-  travelDestElement.classList.remove("hidden");
   travelDestElement.innerHTML = `<div class="generating">⏳ Generating travel destinations for ${instructionsInputElement.value} 💟</div>`;
 
   let apiKey = "f3bca34ct89oa34003327040cfb10a10";
